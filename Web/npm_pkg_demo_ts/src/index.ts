@@ -1,4 +1,4 @@
-const Matt = require("./lib/matt");
+const Matt = require("./lib/matthew");
 
 module.exports = {
     Matt

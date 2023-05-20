@@ -1,5 +1,6 @@
 import React, { PropsWithChildren } from 'react';
 import logo from './logo.svg';
+import { Matt } from 'npm_pkg_demo_ts';
 import './App.css';
 
 function WithChildrenComponent(props: PropsWithChildren<{ title: string }>) {
@@ -18,6 +19,8 @@ function App() {
         <WithChildrenComponent title='hi'>
           World
         </WithChildrenComponent>
+
+        { new Matt().hello() }
       </header>
     </div>
   );

@@ -5,4 +5,4 @@ class Matthew {
     }
 }
 
-module.exports = Matt;
+module.exports = Matthew;
